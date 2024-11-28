@@ -12,11 +12,11 @@ export default function Profile({
       <div>
         <img className={css.avatar} src={image} alt={`${name} avatar`} />
         <p>{name}</p>
-        <p>{tag}</p>
+        <p>@{tag}</p>
         <p>{location}</p>
       </div>
 
-      <ul>
+      <ul className={css.info}>
         <li>
           <span>Followers</span>
           <span>{followers}</span>
