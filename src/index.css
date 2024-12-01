@@ -1,6 +1,8 @@
 body {
   font-family: sans-serif;
   line-height: 1.5;
+  width: 600px;
+  margin: 0 auto;
 }
 
 h1,

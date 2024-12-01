@@ -1,0 +1,19 @@
+.transaction-history {
+  width: 100%;
+  border-collapse: collapse;
+  text-transform: capitalize;
+}
+
+.transaction-history th {
+  text-align: center;
+  font-weight: 400;
+  border: 1px solid black;
+}
+
+.transaction-history thead {
+  background-color: grey;
+}
+
+.transaction-history tbody tr:nth-child(even) {
+  background-color: blanchedalmond;
+}

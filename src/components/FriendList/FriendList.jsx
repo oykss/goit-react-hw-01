@@ -5,7 +5,7 @@ console.log(css);
 
 export default function FriendList({ friends }) {
   return (
-    <ul>
+    <ul className={css.list}>
       {friends.map(({ id, avatar, name, isOnline }) => (
         <li key={id}>
           <FriendListItem avatar={avatar} name={name} isOnline={isOnline} />

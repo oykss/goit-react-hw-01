@@ -1,10 +1,8 @@
 import css from './TransactionHistory.module.css';
 
-console.log(css);
-
 export default function TransactionHistory({ transactions }) {
   return (
-    <table>
+    <table className={css['transaction-history']}>
       <thead>
         <tr>
           <th>Type</th>

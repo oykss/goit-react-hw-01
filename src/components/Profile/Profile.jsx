@@ -8,15 +8,15 @@ export default function Profile({
   stats: { followers, views, likes },
 }) {
   return (
-    <div>
-      <div>
+    <div className={css.profile}>
+      <div className={css.desc}>
         <img className={css.avatar} src={image} alt={`${name} avatar`} />
         <p>{name}</p>
         <p>@{tag}</p>
         <p>{location}</p>
       </div>
 
-      <ul className={css.info}>
+      <ul className={css.list}>
         <li>
           <span>Followers</span>
           <span>{followers}</span>
