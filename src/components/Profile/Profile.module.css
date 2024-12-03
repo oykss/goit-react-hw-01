@@ -3,18 +3,53 @@
   justify-items: center;
   border: 1px solid black;
   border-radius: 10px;
+  width: 300px;
+  background-color: #fafafa;
+  overflow: hidden;
+  margin: 30px auto;
 }
 
 .avatar {
   border-radius: 50%;
-  background-color: blue;
+  background-color: #2a2a2a;
+  width: 150px;
+  margin: 12px 0 24px;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.tag,
+.location {
+  color: #797979;
 }
 
 .desc {
   display: grid;
   justify-items: center;
+  margin-bottom: 8px;
 }
 
 .list {
   display: flex;
+  width: 100%;
+  background-color: #d3d3d3;
+  border-top: 1px solid #7f7f7f;
+}
+
+.list li {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.list li:not(:last-child) {
+  border-right: 1px solid #7f7f7f;
+}
+
+.list span:nth-child(2) {
+  font-weight: 700;
 }

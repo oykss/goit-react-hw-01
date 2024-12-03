@@ -11,9 +11,9 @@ export default function Profile({
     <div className={css.profile}>
       <div className={css.desc}>
         <img className={css.avatar} src={image} alt={`${name} avatar`} />
-        <p>{name}</p>
-        <p>@{tag}</p>
-        <p>{location}</p>
+        <p className={css.name}>{name}</p>
+        <p className={css.tag}>@{tag}</p>
+        <p className={css.location}>{location}</p>
       </div>
 
       <ul className={css.list}>

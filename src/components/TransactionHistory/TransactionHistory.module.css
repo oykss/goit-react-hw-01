@@ -11,9 +11,10 @@
 }
 
 .transaction-history thead {
-  background-color: grey;
+  background-color: #2a2a2a;
+  color: #fff;
 }
 
 .transaction-history tbody tr:nth-child(even) {
-  background-color: blanchedalmond;
+  background-color: #d3d3d3;
 }

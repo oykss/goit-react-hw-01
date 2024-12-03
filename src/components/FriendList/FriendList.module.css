@@ -1,12 +1,13 @@
 .list {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .list li {
   display: grid;
   justify-items: center;
-  padding: 10px;
+  padding: 14px;
   border: 1px solid black;
   border-radius: 10px;
 }

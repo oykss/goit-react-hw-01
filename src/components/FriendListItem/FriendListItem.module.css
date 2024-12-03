@@ -5,3 +5,13 @@
 .offline {
   color: red;
 }
+
+.name {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.offline,
+.online {
+  font-size: 14px;
+}
