@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import css from './Profile.module.css';
 
 export default function Profile({
@@ -33,3 +34,11 @@ export default function Profile({
     </div>
   );
 }
+
+Profile.propTypes = {
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  stats: PropTypes.object.isRequired,
+};
